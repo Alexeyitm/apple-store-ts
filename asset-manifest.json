@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/apple-store-ts/static/css/main.073c9b0a.css",
-    "main.js": "/apple-store-ts/static/js/main.abd5ee03.js",
+    "main.css": "/apple-store-ts/static/css/main.12dafa24.css",
+    "main.js": "/apple-store-ts/static/js/main.0ab590aa.js",
+    "static/media/Montserrat-SemiBold.ttf": "/apple-store-ts/static/media/Montserrat-SemiBold.04af9a9e62bb4c47bd55.ttf",
+    "static/media/Montserrat-Medium.ttf": "/apple-store-ts/static/media/Montserrat-Medium.3a0917345468c959207a.ttf",
+    "static/media/Montserrat-Bold.ttf": "/apple-store-ts/static/media/Montserrat-Bold.63fae500fdcf19ce83d4.ttf",
+    "static/media/Montserrat-Regular.ttf": "/apple-store-ts/static/media/Montserrat-Regular.ac98a5f5ca71180fe293.ttf",
+    "static/media/header-basket.svg": "/apple-store-ts/static/media/header-basket.e3160ad4ac5182739dde.svg",
+    "static/media/header-mobile.svg": "/apple-store-ts/static/media/header-mobile.c6030050d8fab39345eb.svg",
     "index.html": "/apple-store-ts/index.html",
-    "main.073c9b0a.css.map": "/apple-store-ts/static/css/main.073c9b0a.css.map",
-    "main.abd5ee03.js.map": "/apple-store-ts/static/js/main.abd5ee03.js.map"
+    "static/media/header-like.svg": "/apple-store-ts/static/media/header-like.93e16e12c7f65e8a049a.svg",
+    "static/media/header-burger.svg": "/apple-store-ts/static/media/header-burger.51846abdb0602ab4b3c1.svg",
+    "static/media/header-arrow.svg": "/apple-store-ts/static/media/header-arrow.23d988cc6bf5406958e8.svg",
+    "main.12dafa24.css.map": "/apple-store-ts/static/css/main.12dafa24.css.map",
+    "main.0ab590aa.js.map": "/apple-store-ts/static/js/main.0ab590aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.abd5ee03.js"
+    "static/css/main.12dafa24.css",
+    "static/js/main.0ab590aa.js"
   ]
 }
