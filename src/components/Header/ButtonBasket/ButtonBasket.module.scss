@@ -1,0 +1,28 @@
+@use "../../../variables.scss";
+
+.basket {
+  border: 0;
+  margin: 18px 0 0;
+  padding: 0;
+  width: 23.2px;
+  height: 23.2px;
+  background: url(../../../images/header-basket.svg) no-repeat;
+  background-size: contain;
+  cursor: variables.$cursor-hover;
+  transition: opacity .5s ease;
+
+  &:hover {
+    opacity: .5;
+  }
+
+  @media screen and (max-width: 767px) {
+    & {
+      margin-left: auto;
+    }
+  }
+}
+
+
+
+
+

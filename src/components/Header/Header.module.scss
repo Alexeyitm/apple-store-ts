@@ -1,0 +1,16 @@
+.header {
+  max-width: 90%;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+  
+  &__logo {
+    margin: 13px 75px 17px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #101010;
+  }
+}

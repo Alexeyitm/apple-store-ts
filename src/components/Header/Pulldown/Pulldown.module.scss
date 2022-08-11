@@ -1,0 +1,67 @@
+@use "../../../variables.scss";
+
+.pulldown {
+  display: flex;
+  margin-top: 19px;
+
+  &__phone {
+    width: 15px;
+    height: 21px;
+    margin-right: 15px;
+    padding: 0;
+    border: variables.$invisible;
+    background-image: url(../../../images/header-mobile.svg);
+    background-size: cover;
+  }
+
+  @media screen and (max-width: 767px) {
+    &__phone {
+      display: variables.$invisible;
+    }
+  }
+
+  &__link {
+    position: relative;
+    padding: 0;
+    border: 0;
+    background-color: inherit;
+    max-height: 18px;
+    margin-top: 1px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #101010;
+    cursor: variables.$cursor-hover;
+    transition: color .5s ease;
+  }
+  
+  &__link:hover {
+    color: #FFA542;
+  }
+  
+  @media screen and (max-width: 767px) {
+    &__link {
+      display: variables.$invisible;
+    }
+  }
+
+  &__arrow {
+    position: absolute;
+    top: 5px;
+    right: -13px;
+    width: 8px;
+    height: 5px;
+    padding: 0;
+    border: variables.$invisible;
+    background-image: url(../../../images/header-arrow.svg);
+    background-size: cover;
+  }
+  
+  @media screen and (max-width: 767px) {
+    &__arrow {
+      display: variables.$invisible;
+    }
+  }
+}
