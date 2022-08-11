@@ -28,7 +28,7 @@
 
 ## Посмотреть страницу и макет:
 
-* [Путешествия по России на Github Pages](https://alexeyitm.github.io/apple-store-ts/)
+* [Apple Store на Github Pages](https://alexeyitm.github.io/apple-store-ts/)
 
 ## Что можно улучшить:
 
