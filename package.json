@@ -1,7 +1,7 @@
 {
   "name": "apple-store-ts",
   "version": "0.1.0",
-  "homepage": "https://alexeyitm.github.io/apple-store-ts",
+  "homepage": "https://Alexeyitm.github.io/apple-store-ts",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
