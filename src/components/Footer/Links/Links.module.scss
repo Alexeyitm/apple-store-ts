@@ -1,0 +1,57 @@
+@use "../../../variables.scss";
+
+.links {
+  max-width: 427px;
+  margin: 33px 0;
+  padding: 0;
+  list-style-type: variables.$invisible;
+  display: grid;
+  grid-template-columns:  repeat(2, 190px);
+  grid-template-rows:  repeat(3, 21px);
+  grid-auto-flow: column;
+  grid-row-gap: 9px;
+
+  @media screen and (max-width: 776px) {
+    & {
+      order: 3;
+      margin: 33px auto 20px;
+    }
+  }
+
+  @media screen and (max-width: 427px) {
+    & {
+      grid-template-columns:  repeat(2, 140px);
+    }
+  }
+
+  &__link {
+    margin-left: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: variables.$invisible;
+    cursor: variables.$cursor-hover;
+    transition: color .5s ease;
+  }
+  
+  &__link:hover {
+    color: #FFA542;
+  }
+  
+  @media screen and (max-width: 767px) {
+    &__link {
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 427px) {
+    &__link {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+}

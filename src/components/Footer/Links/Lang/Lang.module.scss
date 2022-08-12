@@ -1,0 +1,46 @@
+@use "../../../../variables.scss";
+
+.lang {
+  width: 151px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #101010;
+
+  @media screen and (max-width: 427px) {
+    & {
+      width: 110px;
+      font-size: 13px;
+      line-height: 15px;
+    }
+  }
+
+  &__world {
+    width: 17px;
+    height: 17px;
+    background-image: url(../../../../images/footer-world.svg);
+    background-size: cover;
+  }
+  
+  @media screen and (max-width: 427px) {
+    &__world {
+      width: 14px;
+      height: 14px;
+    }
+  }
+
+  &__link {
+    cursor: variables.$cursor-hover;
+    transition: color .5s ease;
+  }
+  
+  &__link:hover {
+    color: #FFA542;
+  }
+}
+
